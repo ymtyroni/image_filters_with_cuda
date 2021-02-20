@@ -1,0 +1,2 @@
+C:\Users\Łukasz\source\repos\image_filters_with_cuda\x64\Debug\image_filters_with_cuda.exe
+C:\Users\Łukasz\source\repos\image_filters_with_cuda\x64\Debug\image_filters_with_cuda.pdb

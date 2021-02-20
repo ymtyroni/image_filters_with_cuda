@@ -1,0 +1,38 @@
+﻿  Compiling CUDA source file kernel.cu...
+  
+  C:\Users\Łukasz\source\repos\image_filters_with_cuda>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29333\bin\HostX86\x64" -x cu   -IC:\opencv\build\include -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.1\include"  -G   --keep-dir x64\Debug -maxrregcount=0  --machine 64 --compile -cudart static  -g   -DWIN32 -DWIN64 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Fdx64\Debug\vc142.pdb /FS /Zi /RTC1 /MDd " -o x64\Debug\kernel.cu.obj "C:\Users\Łukasz\source\repos\image_filters_with_cuda\kernel.cu" 
+C:\opencv\build\include\opencv2/stitching/detail/warpers.hpp(213): warning : overloaded virtual function "cv::detail::PlaneWarper::buildMaps" is only partially overridden in class "cv::detail::AffineWarper"
+  
+C:\opencv\build\include\opencv2/stitching/detail/warpers.hpp(213): warning : overloaded virtual function "cv::detail::PlaneWarper::warp" is only partially overridden in class "cv::detail::AffineWarper"
+  
+C:\opencv\build\include\opencv2/videostab/motion_stabilizing.hpp(106): warning : function "cv::videostab::IMotionStabilizer::stabilize(int, const std::vector<cv::Mat, std::allocator<cv::Mat>> &, std::pair<int, int>, cv::Mat *)" is hidden by "cv::videostab::GaussianMotionFilter::stabilize" -- virtual function override intended?
+  
+C:\opencv\build\include\opencv2/stitching/detail/warpers.hpp(213): warning : overloaded virtual function "cv::detail::PlaneWarper::buildMaps" is only partially overridden in class "cv::detail::AffineWarper"
+  
+C:\opencv\build\include\opencv2/stitching/detail/warpers.hpp(213): warning : overloaded virtual function "cv::detail::PlaneWarper::warp" is only partially overridden in class "cv::detail::AffineWarper"
+  
+C:\opencv\build\include\opencv2/videostab/motion_stabilizing.hpp(106): warning : function "cv::videostab::IMotionStabilizer::stabilize(int, const std::vector<cv::Mat, std::allocator<cv::Mat>> &, std::pair<int, int>, cv::Mat *)" is hidden by "cv::videostab::GaussianMotionFilter::stabilize" -- virtual function override intended?
+  
+  kernel.cu
+C:/Users/Łukasz/source/repos/image_filters_with_cuda/kernel.cu(141): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:/Users/Łukasz/source/repos/image_filters_with_cuda/kernel.cu(141): warning C4267: "inicjowanie": konwersja z "size_t" do "const int", możliwa utrata danych
+C:/Users/Łukasz/source/repos/image_filters_with_cuda/kernel.cu(142): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:/Users/Łukasz/source/repos/image_filters_with_cuda/kernel.cu(142): warning C4267: "inicjowanie": konwersja z "size_t" do "const int", możliwa utrata danych
+C:/Users/Łukasz/source/repos/image_filters_with_cuda/kernel.cu(160): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+C:/Users/Łukasz/source/repos/image_filters_with_cuda/kernel.cu(176): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:/Users/Łukasz/source/repos/image_filters_with_cuda/kernel.cu(176): warning C4267: "inicjowanie": konwersja z "size_t" do "const int", możliwa utrata danych
+C:/Users/Łukasz/source/repos/image_filters_with_cuda/kernel.cu(177): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:/Users/Łukasz/source/repos/image_filters_with_cuda/kernel.cu(177): warning C4267: "inicjowanie": konwersja z "size_t" do "const int", możliwa utrata danych
+C:/Users/Łukasz/source/repos/image_filters_with_cuda/kernel.cu(190): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+C:/Users/Łukasz/source/repos/image_filters_with_cuda/kernel.cu(199): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:/Users/Łukasz/source/repos/image_filters_with_cuda/kernel.cu(199): warning C4267: "inicjowanie": konwersja z "size_t" do "const int", możliwa utrata danych
+C:/Users/Łukasz/source/repos/image_filters_with_cuda/kernel.cu(200): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:/Users/Łukasz/source/repos/image_filters_with_cuda/kernel.cu(200): warning C4267: "inicjowanie": konwersja z "size_t" do "const int", możliwa utrata danych
+C:/Users/Łukasz/source/repos/image_filters_with_cuda/kernel.cu(212): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+C:/Users/Łukasz/source/repos/image_filters_with_cuda/kernel.cu(223): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:/Users/Łukasz/source/repos/image_filters_with_cuda/kernel.cu(223): warning C4267: "inicjowanie": konwersja z "size_t" do "const int", możliwa utrata danych
+C:/Users/Łukasz/source/repos/image_filters_with_cuda/kernel.cu(224): warning C4267: "inicjowanie": konwersja z "size_t" do "int", możliwa utrata danych
+C:/Users/Łukasz/source/repos/image_filters_with_cuda/kernel.cu(224): warning C4267: "inicjowanie": konwersja z "size_t" do "const int", możliwa utrata danych
+C:/Users/Łukasz/source/repos/image_filters_with_cuda/kernel.cu(245): warning C4267: "argument": konwersja z "size_t" do "int", możliwa utrata danych
+     Trwa tworzenie biblioteki C:\Users\Łukasz\source\repos\image_filters_with_cuda\x64\Debug\image_filters_with_cuda.lib i obiektu C:\Users\Łukasz\source\repos\image_filters_with_cuda\x64\Debug\image_filters_with_cuda.exp
+  image_filters_with_cuda.vcxproj -> C:\Users\Łukasz\source\repos\image_filters_with_cuda\x64\Debug\image_filters_with_cuda.exe
